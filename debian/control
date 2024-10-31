@@ -1,0 +1,11 @@
+Source: main
+Section: utils
+Priority: optional
+Maintainer: Your Name <youremail@example.com>
+Standards-Version: 3.9.6
+
+Package: main
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Example program
+
