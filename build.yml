@@ -12,4 +12,9 @@ jobs:
         run: |
           make
           ./main
+      - name: Automake and create tarball
+        run: |
+         autoreconf --install
+         ./configure
+         make dist
 
