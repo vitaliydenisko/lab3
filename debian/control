@@ -1,11 +1,9 @@
-Source: main
-Section: utils
+Package: lab3
+Version: 1.0
+Section: base
 Priority: optional
-Maintainer: Your Name <youremail@example.com>
-Standards-Version: 3.9.6
+Architecture: amd64
+Maintainer: vitaliydenisko vip.vitalii125@gmail.com
+Description: deb
 
-Package: main
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Example program
 
